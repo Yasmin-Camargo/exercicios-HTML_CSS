@@ -1,6 +1,7 @@
 # exercicios-HTML_CSS
 Exercícios realizados durante as aulas do curso de HTML5 e CSS3 da plataforma Curso em Vídeo
-![image](https://user-images.githubusercontent.com/88253809/152217482-599b492c-27e1-4db7-a886-6481e055488f.png)
+![image](https://user-images.githubusercontent.com/88253809/153270737-3f56e545-a0f4-41c3-87aa-2ac8506acb61.png)
+
 
 Conteúdo:
 – Domínio e hospedagem
@@ -24,3 +25,5 @@ Conteúdo:
 – Formatos de vídeo
 – Incorporação de vídeos externos
 – Estilos CSS inline, internos e externos
+=======
+
