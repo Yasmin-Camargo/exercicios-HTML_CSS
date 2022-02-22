@@ -1,9 +1,9 @@
 # exercicios-HTML_CSS
 Exercícios realizados durante as aulas do curso de HTML5 e CSS3 da plataforma Curso em Vídeo
-![image](https://user-images.githubusercontent.com/88253809/153270737-3f56e545-a0f4-41c3-87aa-2ac8506acb61.png)
+![image](https://user-images.githubusercontent.com/88253809/155230104-debe6b75-14b7-4ffb-b02c-0c87026f13cc.png)
 
-
-Conteúdo:
+Em
+## Conteúdo:
 Domínio e hospedagem, 
 A diferença entre HTML, CSS e JavaScript, 
 Front-end, Back-end e Full stack, 
