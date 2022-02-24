@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color: rgba(0, 255, 149, 0.274);
+        }
+        .especial::before{
+            content: '☝ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+        a::after{
+            content: '(link)';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/Yasmin-Camargo" target="_blank">Repositório github</a></li>
+        <li class="especial"><a href="https://web.facebook.com/yasmin.camargo.1291421" target="_blank">facebook</a></li>
+        <li><a href="https://www.linkedin.com/in/yasmin-souza-camargo-4a036b163/" target="_blank">linkedin</a></li>
+    </ul>
+    
+
+    <br><br><hr>
+    <p><a href="../../../index.html" rel="next" target="_self">index</a></p>
+    
+</body>
+</html>

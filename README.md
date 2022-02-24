@@ -28,7 +28,16 @@ Em
 - Estilos CSS inline, internos e externos, 
 
 ### Módulo 2:
-- 
+- Psicologia das Cores
+- Representando Cores com CSS3
+- Harmonia e paleta de cores
+- Degradê com CSS ?
+- Tipografia
+- Famílias e Tamanho de fonte
+- Fontes internas e externas
+- Alinhamento de textos 
+- id e class
+- Pseudo-classes e Pseudo-elementos
 
 =======
 
