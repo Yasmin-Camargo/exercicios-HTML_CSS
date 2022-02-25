@@ -38,6 +38,12 @@ Em
 - Alinhamento de textos 
 - id e class
 - Pseudo-classes e Pseudo-elementos
+- Modelo de Caixas 
+- Grouping Tags em HTML
+- Sombra, vértices, borda nas Caixas
+- Variáveis em CSS
+- Responsividade para sites
+
 
 =======
 

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Grouping Tag</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgba(89, 0, 206, 0.822);
+            margin: 0px;
+        }
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(94, 68, 121);
+            padding: 3px;
+        }
+        a {
+            text-decoration: none;
+            color: whitesmoke;;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: whitesmoke;;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color:rgb(182, 177, 177) ;
+        }
+        footer{
+            background-color: rgb(28, 24, 32);
+            color: whitesmoke;;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        h2{
+            color: rgb(74, 4, 167);
+        }
+        h1{
+            text-align: center;
+            color: rgb(28, 24, 32) ;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>Esportes Política e Tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo placeat ipsam et fugit eveniet autem doloribus alias expedita aliquid quos iure quo, ut distinctio odit magni saepe architecto minima ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit non vero deleniti consequuntur libero optio consectetur architecto, totam accusamus error doloremque cumque ex, cupiditate ullam fugit omnis eligendi adipisci. Odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eos distinctio maxime. Obcaecati porro ducimus reiciendis laborum dolorem aut eligendi nemo quas iste. Earum eligendi placeat sunt reprehenderit ea libero.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum dignissimos iste sed dolores velit, unde ex, inventore quo, omnis aliquid sint? Minus, aliquam placeat iusto ratione reiciendis fugiat repellendus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime amet deserunt temporibus exercitationem voluptas fugiat laboriosam eum cumque! Magni nulla quos maiores magnam quidem est animi alias quas sunt nisi!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam id vero ut vitae eius inventore, delectus facere, recusandae fugit, aut quod veritatis incidunt officiis tempora quisquam ab animi reiciendis!</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quod soluta omnis minus nesciunt illo est porro odit. Atque nisi soluta facilis a officiis aliquid maiores mollitia dolore tempora! Minima.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Yasmin</p>
+        <a href="../../../index.html" rel="next" target="_self">index</a>
+        
+    </footer>
+    
+    
+</body>
+</html>
