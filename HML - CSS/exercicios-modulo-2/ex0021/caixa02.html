@@ -17,16 +17,19 @@
             background-color: whitesmoke;
             padding: 10px;
             margin: 10px;
+            border-radius: 10px;
         }
         nav{
             background-color: rgb(94, 68, 121);
             padding: 3px;
+            box-shadow: inset 0px -1px 2px 0px rgba(0, 0, 0, 0.466);
         }
         a {
             text-decoration: none;
             color: whitesmoke;;
             font-weight: bold;
             margin-right: 30px;
+            
         }
         a:hover{
             text-decoration: underline;
@@ -35,6 +38,7 @@
             background-color: whitesmoke;;
             padding: 10px;
             margin: 10px;
+            border-radius: 17px 1px;
         }
         article{
             background-color: lightgray;
@@ -42,12 +46,18 @@
         }
         article > aside {
             background-color:rgb(182, 177, 177) ;
+            padding-left: 15px;
+            border-radius: 50%;
+            text-align: center;
         }
         footer{
             background-color: rgb(28, 24, 32);
             color: whitesmoke;;
-            text-align: center;
-            padding: 1px;
+            text-align: left;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer > p {
             margin: 0px;
         }
         h2{
@@ -55,14 +65,27 @@
         }
         h1{
             text-align: center;
-            color: rgb(28, 24, 32) ;
+            color:rgb(55, 8, 116) ;
+            text-shadow: 1px 2px 1px rgba(112, 112, 112, 0.692);
+            font-family: cursive;
+           
         }
+        h2#borda{
+            border: 20px solid transparent;
+            padding: 10px;
+            border-image: url('borda.png') 29 repeat;
+        }
+        #desenvolvedor{
+            text-align: right;
+            padding-right: 20px;
+        }
+
     </style>
     
 </head>
 <body>
     <header>
-        <h1>Meu site</h1>
+        <h1>Meu Site</h1>
         <nav>
             <a href="#">Link</a>
             <a href="#">Link</a>
@@ -78,6 +101,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo placeat ipsam et fugit eveniet autem doloribus alias expedita aliquid quos iure quo, ut distinctio odit magni saepe architecto minima ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit non vero deleniti consequuntur libero optio consectetur architecto, totam accusamus error doloremque cumque ex, cupiditate ullam fugit omnis eligendi adipisci. Odio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eos distinctio maxime. Obcaecati porro ducimus reiciendis laborum dolorem aut eligendi nemo quas iste. Earum eligendi placeat sunt reprehenderit ea libero.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum dignissimos iste sed dolores velit, unde ex, inventore quo, omnis aliquid sint? Minus, aliquam placeat iusto ratione reiciendis fugiat repellendus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime amet deserunt temporibus exercitationem voluptas fugiat laboriosam eum cumque! Magni nulla quos maiores magnam quidem est animi alias quas sunt nisi!</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias ipsam id vero ut vitae eius inventore, delectus facere, recusandae fugit, aut quod veritatis incidunt officiis tempora quisquam ab animi reiciendis!</p>
+            <h2 id="borda">Exemplo de borda decorada</h2>
         </section>
         <section id="noticias">
             <article>
@@ -93,7 +117,7 @@
         </section>
     </main>
     <footer>
-        <p>Desenvolvido por Yasmin</p>
+        <p id="desenvolvedor">Desenvolvido por Yasmin</p>
         <a href="../../../index.html" rel="next" target="_self">index</a>
         
     </footer>
